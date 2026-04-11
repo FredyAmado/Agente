@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node
+node_modules/
+
+# Aider
+.aider*
+!aider-input.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Ollama proxy
+ollama-proxy/
+
+# Temp
+*.tmp
+*.log
+
+# Env files
+.env
