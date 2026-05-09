@@ -1,0 +1,17 @@
+{
+  "agent": {
+    "model": "google/gemini-1.5-pro",
+    "thinking": "high",
+    "workspace": "./workspace"
+  },
+  "channels": {
+    "telegram": {
+      "botToken": "TU_TELEGRAM_BOT_TOKEN_AQUI",
+      "dmPolicy": "open",
+      "allowFrom": ["*"]
+    }
+  },
+  "google": {
+    "apiKey": "TU_GOOGLE_AI_STUDIO_API_KEY_AQUI"
+  }
+}
