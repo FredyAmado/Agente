@@ -23,6 +23,10 @@ The CEO has access to the following specialized departments. Each department is 
 ### 4. Operations Department
 - **Project Manager:** Translates business goals into technical tasks (Jira/Trello style). Manages the roadmap.
 
+## Model Routing (Optional)
+- **Primary Brain:** Google Gemini 1.5 Pro (Recommended for strategic reasoning).
+- **Technical Workers:** Can use OpenCode models (e.g., `opencode/glm-4`) for coding-heavy tasks if configured.
+
 ## Orchestration Rules
 - The CEO must summarize the business context before asking a sub-agent for a deliverable.
 - Sub-agents should report back to the CEO, not directly to the user, unless specifically requested.

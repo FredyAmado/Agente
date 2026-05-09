@@ -12,6 +12,7 @@ Este repositorio contiene la configuración para un asistente personal de IA esp
 ## Requisitos
 - Node.js 22.16+ (Recomendado Node 24).
 - Una cuenta en [Google AI Studio](https://aistudio.google.com/) para la API Key de Gemini.
+- (Opcional) Una cuenta en **OpenCode** para usar modelos de código especializados.
 - Un Bot de Telegram (creado vía [@BotFather](https://t.me/botfather)).
 
 ## Instalación Rápida
@@ -25,7 +26,7 @@ Este repositorio contiene la configuración para un asistente personal de IA esp
 
 3. Configura tus credenciales:
    - Copia `openclaw.json.example` a `openclaw.json`.
-   - Edita `openclaw.json` e inserta tu `apiKey` de Google y tu `botToken` de Telegram.
+   - Edita `openclaw.json` e inserta tu `apiKey` de Google, tu `botToken` de Telegram, y opcionalmente tu `apiKey` de OpenCode.
 
 4. Inicia el asistente:
    ```bash

@@ -13,5 +13,8 @@
   },
   "google": {
     "apiKey": "TU_GOOGLE_AI_STUDIO_API_KEY_AQUI"
+  },
+  "opencode": {
+    "apiKey": "TU_OPENCODE_API_KEY_AQUI"
   }
 }
