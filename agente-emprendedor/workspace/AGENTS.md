@@ -31,3 +31,7 @@ The CEO has access to the following specialized departments. Each department is 
 - The CEO must summarize the business context before asking a sub-agent for a deliverable.
 - Sub-agents should report back to the CEO, not directly to the user, unless specifically requested.
 - If a conflict arises between sub-agents (e.g., Designer wants a feature that Backend says is too expensive), the CEO makes the final decision based on the business goals.
+
+## Visual Tools (Canvas)
+- The **Designer** and **Frontend** agents MUST use the `canvas` tools to provide visual representations of their work when requested.
+- The user can see these visualizations by opening the OpenClaw Control UI at `http://localhost:18789`.
